@@ -1,0 +1,19 @@
+prefix = "."
+stop-words = "stopwords.txt"
+dataset = "property"
+corpus = "file.toml"
+index = "idx"
+uninvert = true # create the forward index by un-inverting the
+                # inverted index; can save some processing time
+                # when using both indexes
+
+query-judgements = "investment-qrels.txt"
+
+[[analyzers]]
+method = "ngram-word"
+ngram = 1
+filter = "default-unigram-chain"
+
+[query-runner]
+query-path = "investment-queries.txt"
+query-id-start = 1
