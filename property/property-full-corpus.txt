@@ -9,6 +9,10 @@ investment investment/inv_08.txt
 investment investment/inv_09.txt
 investment investment/inv_10.txt
 investment investment/inv_11.txt
+investment investment/inv_12.txt
+investment investment/inv_13.txt
+investment investment/inv_14.txt
+investment investment/inv_15.txt
 movein movein/ref_01.txt
 movein movein/ref_02.txt
 movein movein/ref_03.txt
@@ -19,3 +23,8 @@ movein movein/ref_07.txt
 movein movein/ref_08.txt
 movein movein/ref_09.txt
 movein movein/ref_10.txt
+movein movein/ref_11.txt
+movein movein/ref_12.txt
+movein movein/ref_13.txt
+movein movein/ref_14.txt
+movein movein/ref_15.txt
