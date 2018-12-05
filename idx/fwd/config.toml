@@ -2,8 +2,12 @@ index = "idx"
 corpus = "file.toml"
 stop-words = "stopwords.txt"
 dataset = "property"
+query-judgements = "investment-qrels.txt"
 uninvert = true
 prefix = "."
+[query-runner]
+	query-id-start = 1
+	query-path = "investment-queries.txt"
 [[analyzers]]
 	filter = "default-unigram-chain"
 	ngram = 1
